@@ -1,0 +1,28 @@
+#endereço para converter properties to yml
+#http://mageddo.com/tools/yaml-converter
+quarkus:
+  rest-client:
+    '"com':
+      fernando:
+        service:
+          BitcoinService":
+            url: https://alura-bitcoin.herokuapp.com
+
+
+hello:
+  menagem: 'Minha Mensagem'
+
+"%dev":
+  quarkus:
+    http:
+      port: 9090
+
+"%prod":
+  quarkus:
+    http:
+      port: 8080
+
+"%test":
+  quarkus:
+    http:
+      port: 8081
